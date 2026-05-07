@@ -1,0 +1,14 @@
+{
+  "name": "astra-browser",
+  "version": "2.0.0",
+  "description": "Codeastra private browser — public web only, sessions ephemeral",
+  "main": "src/server.js",
+  "scripts": { "start": "node src/server.js" },
+  "dependencies": {
+    "express": "^4.18.2",
+    "playwright": "^1.42.0",
+    "cors": "^2.8.5",
+    "uuid": "^9.0.0"
+  },
+  "engines": { "node": ">=18.0.0" }
+}
